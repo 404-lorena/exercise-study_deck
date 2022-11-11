@@ -1,0 +1,75 @@
+# Bootstrap a new React project with npx and create-react-app
+
+## About 
+- Instructor: Andy Van Slaars (@avanslaars)
+- Watch video: https://egghead.io/lessons/react-bootstrap-a-new-react-project-with-npx-and-create-react-app
+- GitHub Repo: https://github.com/avanslaars/egghead-studydeck/tree/01_npx_cra
+
+## Instructions
+1. Create create app using npx command
+```
+npx create-react-app study_deck
+```
+- npx:
+- create-react-app
+- study_deck
+
+2. CHECK IT
+```
+npx start
+```
+- Important to know (and see) if it got installed correctly before moving foward so open up your repo in your editor to view the files, package.json, etc
+- Instead of `npx start` it can also be `yarn start` but it just needs be the language that you had installed before
+- If you're like uhhh what then go here
+
+
+### Quick Clean Up
+This is optional but for the sake of the code along do the following.
+
+- In `App.css` <br/>
+<input type="checkbox">  Delete all the code in `App.css` <br/>
+
+- In `App.js` <br/>
+<input type="checkbox">  Delete everything between the divs<br/>
+<input type="checkbox">  Add `hello world` in between the divs <br/>
+<input type="checkbox">  Remove className<br/>
+
+
+- In `App.test.js` <br/>
+<input type="checkbox">  Delete entire file<br/>
+
+
+
+#### Code Snippet
+
+<details>
+    <summary>Code Snippet for Delete everything between the divs part</summary>
+
+  ### Don't need it
+  ```js
+ <header className="App-header">
+        <img src={logo} className="App-logo" alt="logo" />
+        <p>
+          Edit <code>src/App.js</code> and save to reload.
+        </p>
+        <a
+          className="App-link"
+          href="https://reactjs.org"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Learn React
+        </a>
+      </header>
+```
+</details>
+
+<details>
+    <summary>Code Snippet for Remove className part</summary>
+
+```js
+className="App"
+  ```
+</details>
+
+
